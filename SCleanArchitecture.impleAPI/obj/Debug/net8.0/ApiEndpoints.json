@@ -1,0 +1,34 @@
+[
+  {
+    "ContainingType": "SCleanArchitecture.SimpleAPI.Controllers.UserController",
+    "Method": "AddUser",
+    "RelativePath": "users",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "userRequestDto",
+        "Type": "SCleanArchitecture.SimpleAPI.Application.DTOs.AddUserRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "SCleanArchitecture.SimpleAPI.Controllers.UserController",
+    "Method": "GetUser",
+    "RelativePath": "users/id",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

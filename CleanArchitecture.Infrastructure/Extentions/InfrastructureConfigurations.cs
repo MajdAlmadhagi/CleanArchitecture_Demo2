@@ -1,4 +1,5 @@
 ﻿using CleanArchitecture.Infrastructure.Data;
+using CleanArchitecture.Infrastructure.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using SCleanArchitecture.SimpleAPI.Infrastructure.Repositories;
@@ -8,6 +9,23 @@ using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace SCleanArchitecture.SimpleAPI.Infrastructure.Extentions;
 
+
+ //Repositoriesملف تجميع ال
+    /*
+     * هذا فقط ينظّم الكود.
+بدلاً من تسجيل كل 
+     * Repository 
+     * يدويًا،
+نضعها كلها في مكان واحد لتُسجَّل بسطر واحد لاحقًا.
+     * 
+     * 
+     * 
+     * 
+     * 
+     * 
+     */
+
+
 /*
 هو ملف امتداد (Extension Method) 
 لتجميع كل خدمات البنية التحتية في مكان واحد، ويتم استدعاؤه من 
@@ -15,10 +33,13 @@ Program.cs.
 */
 public static class InfrastructureConfigurations
 {
-    //AddInfrastructureServices للتجميع
+    //AddInfrastructureServi🤬ces للتجميع
     public static IServiceCollection AddInfrastructureServices(this IServiceCollection services)
     {
         services.AddUserRepsitory();
+        services.AddProductRepository();
+        services.AddCartRepository();
+        services.AddWishlistRepository();
         services.AddApplicationDbContext();//from down
 
         return services;

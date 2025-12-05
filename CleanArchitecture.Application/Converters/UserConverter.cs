@@ -9,9 +9,9 @@ internal static class UserConverter
 {
     public static User ToUserEntity(this AddUserRequestDto requestDto)
     {
-        return new User
+        return new User //المتغيرات المراد ارسالها للدومين فقط
         {
-            Name= requestDto.Name,
+            Name= requestDto.Name, 
             Email = requestDto.Email,
         };
     }
@@ -26,6 +26,22 @@ internal static class UserConverter
         };
     }
 
+    public static GetUserDto ToUserDto(this User userObject)
+    {
+        return new GetUserDto
+        {
+            Id=userObject.Id,
+            Name= userObject.Name,
+            Email = userObject.Email,
+            CreatedAt = userObject.CreatedAt,
+        };
+    }
+
+
+
+
+
+
     //Add dependency injection
     public static IServiceCollection AddUserService(this IServiceCollection services)
     {
@@ -33,5 +49,20 @@ internal static class UserConverter
 
         return services;
     }
+
+    /*يعرّف النظام كيف ينشئ كائنًا من 
+         *  
+         * UserServices
+         * في ملف ال
+         * controller
+         * 
+         * بما ان الcontroller    
+         * services تتعامل مباشرة مع ال
+         * وهذا ملف نفس فكرة ملف
+         * UserRepositoryExtention
+         */
+
+
+
 
 }

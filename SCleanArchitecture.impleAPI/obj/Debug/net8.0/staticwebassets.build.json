@@ -1,1 +1,11 @@
-{"Version":1,"Hash":"8dHMfihF0n2/w86v521FzasgVYigNnqHrB90oQ8tAew=","Source":"SCleanArchitecture.SimpleAPI","BasePath":"_content/SCleanArchitecture.SimpleAPI","Mode":"Default","ManifestType":"Build","ReferencedProjectsConfiguration":[],"DiscoveryPatterns":[],"Assets":[],"Endpoints":[]}
+{
+  "Version": 1,
+  "Hash": "+p7So6XBkmxRO9rKOGhT8TPqaCbikFpYqCyXNBLBrVs=",
+  "Source": "SCleanArchitecture.SimpleAPI",
+  "BasePath": "_content/SCleanArchitecture.SimpleAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

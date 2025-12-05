@@ -1,5 +1,8 @@
 using SCleanArchitecture.SimpleAPI.Application.Extensions;
 using SCleanArchitecture.SimpleAPI.Infrastructure.Extentions;
+using CleanArchitecture.Infrastructure.Data;
+
+
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,8 +12,9 @@ builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddApplicationServices();
-builder.Services.AddInfrastructureServices();
+
+builder.Services.AddApplicationServices();//عند بناء التطبيق يتم بناء الDI container والتي بداخلها الخدمات التي حقنها
+builder.Services.AddInfrastructureServices();///عند بناء التطبيق يتم بناء الDI container والتي بداخلها الخدمات التي حقنه
 
 var app = builder.Build();
 

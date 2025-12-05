@@ -15,3 +15,23 @@ D:\CsharpOrg\3A Tech\CleanArchitecture\CleanArchitecture.Infrastructure\obj\Debu
 D:\CsharpOrg\3A Tech\CleanArchitecture\CleanArchitecture.Infrastructure\obj\Debug\net8.0\CleanArchitecture.Infrastructure.pdb
 D:\CsharpOrg\3A Tech\CleanArchitecture\CleanArchitecture.Infrastructure\obj\Debug\net8.0\CleanArchitecture.Infrastructure.genruntimeconfig.cache
 D:\CsharpOrg\3A Tech\CleanArchitecture\CleanArchitecture.Infrastructure\obj\Debug\net8.0\ref\CleanArchitecture.Infrastructure.dll
+E:\CleanArchitecture-1\CleanArchitecture\CleanArchitecture.Infrastructure\bin\Debug\net8.0\CleanArchitecture.Infrastructure.deps.json
+E:\CleanArchitecture-1\CleanArchitecture\CleanArchitecture.Infrastructure\bin\Debug\net8.0\CleanArchitecture.Infrastructure.runtimeconfig.json
+E:\CleanArchitecture-1\CleanArchitecture\CleanArchitecture.Infrastructure\bin\Debug\net8.0\CleanArchitecture.Infrastructure.dll
+E:\CleanArchitecture-1\CleanArchitecture\CleanArchitecture.Infrastructure\bin\Debug\net8.0\CleanArchitecture.Infrastructure.pdb
+E:\CleanArchitecture-1\CleanArchitecture\CleanArchitecture.Infrastructure\bin\Debug\net8.0\CleanArchitecture.Domain.dll
+E:\CleanArchitecture-1\CleanArchitecture\CleanArchitecture.Infrastructure\bin\Debug\net8.0\CleanArchitecture.Domain.pdb
+E:\CleanArchitecture-1\CleanArchitecture\CleanArchitecture.Infrastructure\obj\Debug\net8.0\CleanArchitecture.Infrastructure.csproj.AssemblyReference.cache
+E:\CleanArchitecture-1\CleanArchitecture\CleanArchitecture.Infrastructure\obj\Debug\net8.0\CleanArchitecture.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+E:\CleanArchitecture-1\CleanArchitecture\CleanArchitecture.Infrastructure\obj\Debug\net8.0\CleanArchitecture.Infrastructure.AssemblyInfoInputs.cache
+E:\CleanArchitecture-1\CleanArchitecture\CleanArchitecture.Infrastructure\obj\Debug\net8.0\CleanArchitecture.Infrastructure.AssemblyInfo.cs
+E:\CleanArchitecture-1\CleanArchitecture\CleanArchitecture.Infrastructure\obj\Debug\net8.0\CleanArchitecture.Infrastructure.csproj.CoreCompileInputs.cache
+E:\CleanArchitecture-1\CleanArchitecture\CleanArchitecture.Infrastructure\obj\Debug\net8.0\CleanArchitecture.Infrastructure.sourcelink.json
+E:\CleanArchitecture-1\CleanArchitecture\CleanArchitecture.Infrastructure\obj\Debug\net8.0\CleanArc.38F44B56.Up2Date
+E:\CleanArchitecture-1\CleanArchitecture\CleanArchitecture.Infrastructure\obj\Debug\net8.0\CleanArchitecture.Infrastructure.dll
+E:\CleanArchitecture-1\CleanArchitecture\CleanArchitecture.Infrastructure\obj\Debug\net8.0\refint\CleanArchitecture.Infrastructure.dll
+E:\CleanArchitecture-1\CleanArchitecture\CleanArchitecture.Infrastructure\obj\Debug\net8.0\CleanArchitecture.Infrastructure.pdb
+E:\CleanArchitecture-1\CleanArchitecture\CleanArchitecture.Infrastructure\obj\Debug\net8.0\CleanArchitecture.Infrastructure.genruntimeconfig.cache
+E:\CleanArchitecture-1\CleanArchitecture\CleanArchitecture.Infrastructure\obj\Debug\net8.0\ref\CleanArchitecture.Infrastructure.dll
+E:\CleanArchitecture-1\CleanArchitecture\CleanArchitecture.Infrastructure\bin\Debug\net8.0\CleanArchitecture.Application.dll
+E:\CleanArchitecture-1\CleanArchitecture\CleanArchitecture.Infrastructure\bin\Debug\net8.0\CleanArchitecture.Application.pdb
